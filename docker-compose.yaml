@@ -12,11 +12,11 @@ services:
     ports: 
       - 3306:3306
  
-  superset:
-    build:
-      context: ./superset
-    ports:
-      - 8080:8088
+#  superset:
+#    build:
+#      context: ./superset
+#    ports:
+#      - 8080:8088
  
 volumes:
   mysql-data: {}
